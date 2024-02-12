@@ -1,0 +1,123 @@
+/* General body styles */
+body {
+    background-color: #424141; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-content {
+    background-color: #121212; 
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+.container {
+    padding: 70px;
+}
+
+p {
+    color: #f0f0f0;
+    background-color: #2a2a2a;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Navbar customizations */
+.navbar {
+    background-color: #000000; 
+    position: fixed;
+    top: 0;
+    width: 61%;
+    z-index: 1000;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff !important; 
+    
+}
+
+.nav-link {
+    padding-right: 15px !important; 
+    padding-left: 15px !important; 
+}
+
+.navbar .navbar-nav .nav-link:not(:last-child) {
+    border-right: 5px solid #f0f0f0 !important; 
+}
+
+.nav-link:hover {
+    color: #0088cc !important; 
+}
+
+
+/* Section headings */
+h2 {
+    color: #0088cc; 
+    padding-bottom: 10px;
+    border-bottom: 2px solid #0088cc; 
+    margin-bottom: 20px;
+}
+h3 {
+    color: #f0f0f0;
+}
+
+h3 span {
+    border-bottom: 2px solid #f0f0f0;
+}
+
+/* Thumbnail image */
+img.img-thumbnail {
+    border-color: #0088cc; 
+}
+
+/* Table customizations */
+table.table {
+    color: #ffffff;
+    border-color: #333333;
+}
+
+table.table thead th {
+    background-color: #000000;
+    color: #ffffff; 
+}
+
+table.table tbody td {
+    background-color: #1a1a1a; 
+}
+
+table.table tbody tr:nth-child(odd) {
+    background-color: #2a2a2a; 
+}
+
+/* Link styling */
+a, a:visited {
+    color: #0088cc; 
+}
+
+a:hover, a:focus {
+    color: #005f8c; 
+}
+
+/* List customization */
+ul, ol {
+    padding-left: 20px;
+    color: #f0f0f0;
+}
+
+.img-thumbnail {
+    float: left;
+    margin-right: 20px;
+}
+
+footer {
+    flex-shrink: 0;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f1f1f1;
+    /* Additional footer styles */
+  }
